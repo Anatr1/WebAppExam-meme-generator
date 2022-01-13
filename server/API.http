@@ -1,0 +1,20 @@
+POST http://localhost:3001/api/sessions
+
+###
+GET http://localhost:3001/api/memes/5
+
+###
+POST http://localhost:3001/api/memes/
+Content-Type: application/json
+
+{"title": "TestAPI", "image": "3.jpg", "sentences": "Ooooook;;", "visibility": "public", "creator": "Costanzo", "font": "serif", "color": "white"}
+
+###
+DELETE http://localhost:3001/api/memes/3
+
+
+###
+POST http://localhost:3001/api/sessions
+Content-Type: application/json
+
+{"username": "maurizio_costanzo@mediaset.it", "password": "password"}
